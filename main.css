@@ -1962,7 +1962,7 @@
 	}
 	
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1.1em;
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
@@ -3822,17 +3822,6 @@
 		margin-right: 15px;
 	}
 		
-		.panel2 {
-		margin-bottom: 20px;
-		background-color: #fff;
-		border: 1px solid transparent;
-		border-radius: 4px;
-		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-		box-shadow: 0 1px 1px rgba(0,0,0,.05);
-		display:inline-block;
-		position:relative;
-		margin-right: 15px;
-	}
 		
 		
 	.panel-title {
@@ -3870,13 +3859,12 @@
 				position:relative;}
 	.panel-heading i {position:absolute; right: -15px; font-size:36px; }
 	
-	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; }
+	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; margin: 10px auto; }
 	
 	
 	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2% 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#48889E;}
 
 	.setOff { margin-left:4em;}
 	
-	.setOff2 { margin: 1em 8em 2em 0; font-size:0.9em; padding:0; line-height:1.2em}
 	
 	.special.features a { border-bottom:none !important; }
