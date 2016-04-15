@@ -3878,3 +3878,5 @@
 	.setOff { margin-left:4em;}
 	
 	.setOff2 { margin: 1em 8em 2em 0; font-size:0.9em; padding:0; line-height:1.2em}
+	
+	.special.features a { border-bottom:none !important; }
