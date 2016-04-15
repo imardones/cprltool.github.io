@@ -3820,6 +3820,7 @@
 		display:inline-block;
 		position:relative;
 		margin-right: 15px;
+		vertical-align: top;
 	}
 		
 		
@@ -3852,10 +3853,10 @@
 	
 	.panel-heading span {				background: #48889E;
 				color: #ffffff;
-				padding: 10px;
-				border-radius: 100%;
-				left:-20px;
-				top:-20px;
+				padding: 5px 10px;
+				border-radius: 10%;
+				left:-10px;
+				top:-10px;
 				position:relative;}
 	.panel-heading i {position:absolute; right: -15px; font-size:36px; }
 	
