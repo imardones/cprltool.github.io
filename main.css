@@ -1825,8 +1825,10 @@
 
 	strong, b {
 		color: #646464;
-		font-weight: 400;
+		font-weight: 600;
 	}
+
+
 
 	em, i {
 		font-style: italic;
@@ -1858,12 +1860,15 @@
 		font-size: 1.75em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
+		font-weight: 500;
+
 	}
 
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
 		letter-spacing: 0;
+		font-weight: 500;
 	}
 
 	h5 {
@@ -1899,6 +1904,7 @@
 		hr.major {
 			margin: 3em 0;
 		}
+
 
 	blockquote {
 		border-left: solid 4px #e5e5e5;
@@ -3068,23 +3074,32 @@
 		}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 4.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
 
 		#banner p {
-			font-size: 0.8em;
+			/*font-size: 0.8em;
 			display:block; 
 			text-align:justify;
 			width:60%;
 			margin: 0 auto 1.75em auto;
-			line-height: 1.2em;
+			line-height: 1.2em;*/
 
 
 		}
-		
+		#banner sup {
+			font-size: 0.5em !important;
+			line-height: 1; position: relative; vertical-align: 0.6em; font-weight:normal;
+			opacity:0.6;
+		}
+		#banner sub {
+			font-size: 0.5em !important;
+			line-height: 1; position: relative; vertical-align: -0.1em; font-weight:normal;
+			opacity:0.6;
+		}
 		#banner strong, #banner b {
 		color: #fff;
 		font-weight:600;
@@ -3791,3 +3806,60 @@
 			}
 
 	}
+	
+	
+	
+	.panel {
+		margin-bottom: 20px;
+		background-color: #fff;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+		box-shadow: 0 1px 1px rgba(0,0,0,.05);
+		width:24%;
+		display:inline-block;
+		position:relative;
+	}
+		
+	.panel-title {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 16px;
+		color: inherit;
+	}
+	
+	.panel-info {
+		border-color: #48889E;
+	}
+	
+	.panel-info>.panel-heading {
+		color: #48889E;
+		background-color: #B7D7E3;
+		border-color: #48889E;
+	}
+	.panel-heading {
+		padding: 10px 15px;
+		border-bottom: 1px solid transparent;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	.panel-body {
+		padding: 15px;
+	}
+	
+	.panel-heading span {				background: #48889E;
+				color: #ffffff;
+				padding: 10px;
+				border-radius: 100%;
+				left:-15px;
+				top:-15px;
+				position:absolute;}
+	.panel-heading i {position:absolute; right: -15px; font-size:36px; }
+	
+	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; }
+	
+	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2% 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#48889E;}
+
+	.setOff { margin-left:4em;}
+	
+	.setOff2 { margin: 1em 8em 2em 0; font-size:0.9em; padding:0; line-height:1.2em}
