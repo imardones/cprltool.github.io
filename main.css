@@ -3816,10 +3816,24 @@
 		border-radius: 4px;
 		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
 		box-shadow: 0 1px 1px rgba(0,0,0,.05);
-		width:24%;
+		width:22%;
 		display:inline-block;
 		position:relative;
+		margin-right: 15px;
 	}
+		
+		.panel2 {
+		margin-bottom: 20px;
+		background-color: #fff;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+		box-shadow: 0 1px 1px rgba(0,0,0,.05);
+		display:inline-block;
+		position:relative;
+		margin-right: 15px;
+	}
+		
 		
 	.panel-title {
 		margin-top: 0;
@@ -3851,12 +3865,13 @@
 				color: #ffffff;
 				padding: 10px;
 				border-radius: 100%;
-				left:-15px;
-				top:-15px;
-				position:absolute;}
+				left:-20px;
+				top:-20px;
+				position:relative;}
 	.panel-heading i {position:absolute; right: -15px; font-size:36px; }
 	
 	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; }
+	
 	
 	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2% 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#48889E;}
 
