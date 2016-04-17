@@ -1988,6 +1988,7 @@
 
 		header.major h2 {
 			margin: 0;
+			color:#47535f;
 		}
 
 		header.major p {
@@ -2300,6 +2301,7 @@
 
 				.box .image.featured:first-child img {
 					border-radius: 6px 6px 0 0;
+					height: 40px;
 				}
 
 			.box .image.featured:last-child {
@@ -2319,6 +2321,7 @@
 		border-bottom: none;
 		position: relative;
 	}
+	.icon:hover { cursor: pointer !important; cursor: hand !important; }
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
@@ -2823,7 +2826,7 @@
 	}
 
 	#header {
-		background: #444;
+		background-color:rgba(78, 90, 100, 0.9);
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3090,16 +3093,7 @@
 
 
 		}
-		#banner sup {
-			font-size: 0.5em !important;
-			line-height: 1; position: relative; vertical-align: 0.6em; font-weight:normal;
-			opacity:0.6;
-		}
-		#banner sub {
-			font-size: 0.5em !important;
-			line-height: 1; position: relative; vertical-align: -0.1em; font-weight:normal;
-			opacity:0.6;
-		}
+
 		#banner strong, #banner b {
 		color: #fff;
 		font-weight:600;
@@ -3220,7 +3214,7 @@
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
-		background-image:url('../../images/pic01.jpg');
+		background-image:url('../../images/banner.jpg');
 	}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
@@ -3293,7 +3287,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 5em 0 14em 0;
+				padding: 8em 0 14em 0;
 			}
 
 	}
@@ -3860,12 +3854,96 @@
 				position:relative;}
 	.panel-heading i {position:absolute; right: -15px; font-size:36px; }
 	
-	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; margin: 10px auto; }
+	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; margin: 10px auto; border-radius: 6px;}
+
 	
+	.stepHead { display:inline-block; width:100%; padding: 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; margin: 10px auto; font-size: 1.3em; font-weight:normal;}
 	
 	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2% 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#48889E;}
 
-	.setOff { margin-left:4em;}
+	.setOff { margin-left:2em;}
 	
+	.setOff2 { font-size: 0.7em; padding: 0; margin: 0.5em 3em 1.5em 0; line-height:1.5em; }
 	
 	.special.features a { border-bottom:none !important; }
+	
+	.logo_CPRL img { }
+	
+	.logo_CPRL { 
+	
+	margin: 0 0 0 0.5em;
+    position: relative;
+	background-color:rgba(66, 115, 172, 0.2);
+	display: inline-block;
+    height: 2em;
+    line-height: 1.95em;
+    padding: 0.1em 1em;
+    border-radius: 6px;
+	box-shadow: inset 0 0 0 2px #999;}
+	
+	.logo_CPRL:hover {background-color:rgba(66, 115, 172, 1);}
+	
+	
+		#banner sub {
+			font-size: 0.5em !important;
+			line-height: 1; position: relative; vertical-align: -0.1em; font-weight:normal;
+			opacity:0.6;
+		}
+	
+	sup.beta { 
+		font-size:0.6em; 
+		opacity:0.6; 
+		font-style: italic; 
+		margin: -1.5em -2.5em 0 0;
+    	z-index: 88; 
+		font-size: 0.5em !important;
+		line-height: 1; 
+		position: relative; 
+		font-weight:normal;
+		opacity:0.6;}
+	
+	#banner sup.beta {vertical-align: 2em; }
+	#header sup.beta {vertical-align: 1.7em; font-size: 1em !important;}
+	
+	.alt .logoOPTA, .alt .beta { display:none;}
+	.alt .credit {left: -10px;}
+	
+	.logoOPTA {
+	font-style: italic !important;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  /*
+  color:rgba(137, 124, 124, 1);
+  color:rgba(255, 255, 255, 0.9);
+  color:rgba(130, 123, 123, 0.9);
+  color:rgba(80, 91, 102, 0.6);
+  */
+  
+  color:rgba(152, 140, 138, 1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
+  font-size:4em;
+}
+	#header .logoOPTA {font-size: 4.5em;}
+ #banner .logoOPTA {font-size: 2.5em;}
+ .credit { display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 200px;}
+	 .credit div {    
+	line-height: 1em !important;
+    z-index: 888;
+    font-style: italic;
+    display: inline-block;
+    width: 35px;
+    opacity: 0.3;
+    padding-top: 5px;
+    margin-right: 1em;
+	font-size:0.6em;
+	}
+
