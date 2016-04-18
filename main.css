@@ -1815,7 +1815,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #4b515a;
 		text-decoration: none;
 	}
 
@@ -1988,7 +1988,7 @@
 
 		header.major h2 {
 			margin: 0;
-			color:#47535f;
+			color:#4b515a;
 		}
 
 		header.major p {
@@ -2048,8 +2048,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #4b515a;
+			box-shadow: 0 0 0 2px #4b515a;
 		}
 
 	.select-wrapper {
@@ -2159,8 +2159,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: #4b515a;
+			box-shadow: 0 0 0 1px #4b515a;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2359,7 +2359,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #4b515a;
 				color: #ffffff;
 				background-image:url('../../images/pic01.jpg');
 				padding-top: 6px;
@@ -2743,7 +2743,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
+			background-color: #4b515a;
 			color: #ffffff !important;
 		}
 
@@ -2877,7 +2877,7 @@
 
 					#header nav > ul > li > ul {
 						display: none;
-						width: 300px !important;
+						width: 400px !important;
 					}
 
 					#header nav > ul > li a {
@@ -3001,7 +3001,7 @@
 		list-style: none;
 		margin: calc(-0.5em + 1px) 0 0 1px;
 		padding: 0.5em 0;
-		width: 11em;
+		width: 15em;
 	}
 
 		.dropotron li {
@@ -3025,7 +3025,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #4b515a;
 				color: #ffffff;
 			}
 
@@ -3210,7 +3210,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #4b515a;
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3233,7 +3233,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #4b515a;
 		}
 
 		#cta input[type="text"],
@@ -3815,6 +3815,9 @@
 		position:relative;
 		margin-right: 15px;
 		vertical-align: top;
+		border-style: dotted;
+
+
 	}
 		
 		
@@ -3827,47 +3830,57 @@
 	}
 	
 	.panel-info {
-		border-color: #48889E;
+		border-color: #4b515a;
 	}
 	
 	.panel-info>.panel-heading {
-		color: #48889E;
-		background-color: #B7D7E3;
-		border-color: #48889E;
+		color: #4b515a;
+		background-color: rgba(66, 115, 172, 0.2);
+		border-color: #4b515a;
+		border-style: dotted;
+
+
 	}
 	.panel-heading {
 		padding: 10px 15px;
 		border-bottom: 1px solid transparent;
 		border-top-left-radius: 3px;
 		border-top-right-radius: 3px;
+		border-style: dotted;
+
+
 	}
 	.panel-body {
 		padding: 15px;
 	}
 	
-	.panel-heading span {				background: #48889E;
+	.panel-heading span {				
+				background: #4b515a;
 				color: #ffffff;
 				padding: 5px 10px;
 				border-radius: 10%;
 				left:-10px;
-				top:-10px;
-				position:relative;}
+				top:-15px;
+				position:relative;
+				border-style: dotted;}
+				
 	.panel-heading i {position:absolute; right: -15px; font-size:36px; }
 	
-	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; margin: 10px auto; border-radius: 6px;}
+	.stepBox { display:inline-block; width:30%; min-height:120px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #4b515a; clear:none; margin: 10px auto; border-radius: 6px;}
+
+.diagram_toa .stepBox { text-align:center;}
 
 	
-	.stepHead { display:inline-block; width:100%; padding: 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; margin: 10px auto; font-size: 1.3em; font-weight:normal;}
+	.stepHead { display:inline-block; width:100%; padding: 0.5em; vertical-align:top; border:dotted 2px #4b515a; clear:none; margin: 10px auto; font-size: 1.3em; font-weight:normal;}
 	
-	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2% 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#48889E;}
+	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2% 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#4b515a;}
 
 	.setOff { margin-left:2em;}
 	
-	.setOff2 { font-size: 0.7em; padding: 0; margin: 0.5em 3em 1.5em 0; line-height:1.5em; }
+	.setOff2 { font-size: 0.85em; padding: 0; margin: 0.5em 3em 1.5em 0; line-height:1.5em; }
 	
 	.special.features a { border-bottom:none !important; }
 	
-	.logo_CPRL img { }
 	
 	.logo_CPRL { 
 	
@@ -3877,7 +3890,7 @@
 	display: inline-block;
     height: 2em;
     line-height: 1.95em;
-    padding: 0.1em 1em;
+    padding: 0.03em 1em;
     border-radius: 6px;
 	box-shadow: inset 0 0 0 2px #999;}
 	
@@ -3930,20 +3943,27 @@
 }
 	#header .logoOPTA {font-size: 4.5em;}
  #banner .logoOPTA {font-size: 2.5em;}
+ 
  .credit { display: inline-block;
     position: absolute;
-    left: 200px;
+    left: 13em;
     top: 0;
     width: 200px;}
+	
 	 .credit div {    
 	line-height: 1em !important;
     z-index: 888;
     font-style: italic;
     display: inline-block;
-    width: 35px;
+    width: 4em;
     opacity: 0.3;
     padding-top: 5px;
     margin-right: 1em;
 	font-size:0.6em;
 	}
 
+ol.lower-alpha {list-style-type: lower-alpha;}
+
+
+
+/*peach:#e89980 darkblue:#4b515a slate:#4b515a*   4b515a/
