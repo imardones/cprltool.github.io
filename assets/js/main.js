@@ -44,6 +44,9 @@
 				$(
 					'<div id="navButton">' +
 						'<a href="#navPanel" class="toggle"></a>' +
+					
+					'<div id="navButtonLogIn">' +
+					'<a href="http://opta-tool.heroku.com">Sign In</a>' + '</div>' +
 					'</div>'
 				)
 					.appendTo($body);

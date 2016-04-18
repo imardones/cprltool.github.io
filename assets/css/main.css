@@ -1815,7 +1815,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #4b515a;
 		text-decoration: none;
 	}
 
@@ -1988,6 +1988,7 @@
 
 		header.major h2 {
 			margin: 0;
+			color:#4b515a;
 		}
 
 		header.major p {
@@ -2047,8 +2048,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #4b515a;
+			box-shadow: 0 0 0 2px #4b515a;
 		}
 
 	.select-wrapper {
@@ -2158,8 +2159,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: #4b515a;
+			box-shadow: 0 0 0 1px #4b515a;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2300,6 +2301,8 @@
 
 				.box .image.featured:first-child img {
 					border-radius: 6px 6px 0 0;
+					height: 3px;
+					opacity: 0.3;
 				}
 
 			.box .image.featured:last-child {
@@ -2319,6 +2322,7 @@
 		border-bottom: none;
 		position: relative;
 	}
+	.icon:hover { cursor: pointer !important; cursor: hand !important; }
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
@@ -2356,7 +2360,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #4b515a;
 				color: #ffffff;
 				background-image:url('../../images/pic01.jpg');
 				padding-top: 6px;
@@ -2740,7 +2744,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
+			background-color: #4b515a;
 			color: #ffffff !important;
 		}
 
@@ -2823,7 +2827,7 @@
 	}
 
 	#header {
-		background: #444;
+		background-color:rgba(78, 90, 100, 0.9);
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -2874,7 +2878,7 @@
 
 					#header nav > ul > li > ul {
 						display: none;
-						width: 300px !important;
+						width: 400px !important;
 					}
 
 					#header nav > ul > li a {
@@ -2998,7 +3002,8 @@
 		list-style: none;
 		margin: calc(-0.5em + 1px) 0 0 1px;
 		padding: 0.5em 0;
-		width: 11em;
+		width: 15em;
+		box-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) ;
 	}
 
 		.dropotron li {
@@ -3022,7 +3027,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #4b515a;
 				color: #ffffff;
 			}
 
@@ -3090,16 +3095,7 @@
 
 
 		}
-		#banner sup {
-			font-size: 0.5em !important;
-			line-height: 1; position: relative; vertical-align: 0.6em; font-weight:normal;
-			opacity:0.6;
-		}
-		#banner sub {
-			font-size: 0.5em !important;
-			line-height: 1; position: relative; vertical-align: -0.1em; font-weight:normal;
-			opacity:0.6;
-		}
+
 		#banner strong, #banner b {
 		color: #fff;
 		font-weight:600;
@@ -3145,7 +3141,7 @@
 
 		#main > header {
 			text-align: center;
-			margin: 0 0 3em 0;
+			margin: 0 0 2.4em 0;
 		}
 
 			#main > header h2 {
@@ -3216,11 +3212,11 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #4b515a;
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
-		background-image:url('../../images/pic01.jpg');
+		background-image:url('../../images/banner.jpg');
 	}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
@@ -3239,7 +3235,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #4b515a;
 		}
 
 		#cta input[type="text"],
@@ -3293,7 +3289,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 5em 0 14em 0;
+				padding: 8em 0 14em 0;
 			}
 
 	}
@@ -3421,7 +3417,7 @@
 				padding-bottom: 1px;
 			}
 
-			#navButton {
+			#navButton, #navButtonLogIn {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3573,6 +3569,7 @@
 
 		/* Basic */
 
+			.panel { width:45% !important;}
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
@@ -3607,7 +3604,7 @@
 			.box {
 				margin: 1em;
 				overflow-x: hidden;
-				padding: 2em 2em !important;
+				padding: 3em 2em !important;
 			}
 
 				.box.features .features-row {
@@ -3703,6 +3700,7 @@
 
 	@media screen and (max-width: 480px) {
 
+		.panel { width:45% !important;}
 		/* Basic */
 
 			html, body {
@@ -3759,7 +3757,7 @@
 				border-radius: 0;
 				box-shadow: none;
 				margin: 1em 0 0 0;
-				padding: 3em 1em !important;
+				padding: 4em 1em !important;
 			}
 
 				.box.features .features-row section {
@@ -3807,7 +3805,7 @@
 
 	}
 	
-	
+	.panels { text-align:center;}
 	
 	.panel {
 		margin-bottom: 20px;
@@ -3821,6 +3819,9 @@
 		position:relative;
 		margin-right: 15px;
 		vertical-align: top;
+		border-style: dotted;
+
+
 	}
 		
 		
@@ -3833,39 +3834,174 @@
 	}
 	
 	.panel-info {
-		border-color: #48889E;
+		border-color: #4b515a;
 	}
 	
 	.panel-info>.panel-heading {
-		color: #48889E;
-		background-color: #B7D7E3;
-		border-color: #48889E;
+		color: #4b515a;
+		background-color: rgba(66, 115, 172, 0.2);
+		border-color: #4b515a;
+		border-style: dotted;
+
+
 	}
 	.panel-heading {
 		padding: 10px 15px;
 		border-bottom: 1px solid transparent;
 		border-top-left-radius: 3px;
 		border-top-right-radius: 3px;
+		border-style: dotted;
+		text-align:center;
+
+
 	}
 	.panel-body {
 		padding: 15px;
+		font-size: 0.8em;
+		text-align:left;
 	}
 	
-	.panel-heading span {				background: #48889E;
-				color: #ffffff;
+	.panel-heading span {				
+				background: #ffffff;
+				color: #4b515a;
 				padding: 5px 10px;
 				border-radius: 10%;
-				left:-10px;
-				top:-10px;
-				position:relative;}
-	.panel-heading i {position:absolute; right: -15px; font-size:36px; }
+				left:5px;
+				top:5px;
+				position:absolute;
+				border-style: dotted;}
+				
+	.panel-heading i {position:absolute; right: -18px; font-size:40px; bottom: 10px; background-color:#ffffff; border-radius: 100%; }
 	
-	.stepBox { display:inline-block; width:30%; min-height:100px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #48889E; clear:none; margin: 10px auto; }
-	
-	
-	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2% 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#48889E;}
+	.stepBox { display:inline-block; width:30%; min-height:120px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #4b515a; clear:none; margin: 10px auto; border-radius: 6px;}
 
-	.setOff { margin-left:4em;}
+.diagram_toa .stepBox { text-align:center;}
+
 	
+	.stepHead { display:inline-block; width:100%; padding: 0.5em; vertical-align:top; border:dotted 2px #4b515a; clear:none; margin: 10px auto; font-size: 1.3em; font-weight:normal;}
+	
+	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2.2em 5px 0 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#4b515a;}
+
+	.setOff { margin-left:2em;}
+	
+	.setOff2 { font-size: 0.85em; padding: 0; margin: 0.5em 3em 1.5em 0; line-height:1.5em; }
 	
 	.special.features a { border-bottom:none !important; }
+	
+	
+	.logo_CPRL { 
+	
+	margin: 0 0 0 0.5em;
+    position: relative;
+	background-color:rgba(66, 115, 172, 0.2);
+	display: inline-block;
+    height: 2em;
+    line-height: 1.95em;
+    padding: 0.03em 1em;
+    border-radius: 6px;
+	box-shadow: inset 0 0 0 2px #999;}
+	
+	.logo_CPRL:hover {background-color:rgba(66, 115, 172, 1);}
+	
+	
+		#banner sub {
+			font-size: 0.5em !important;
+			line-height: 1; position: relative; vertical-align: -0.1em; font-weight:normal;
+			opacity:0.6;
+		}
+	
+	sup.beta { 
+		font-size:0.6em; 
+		opacity:0.6; 
+		font-style: italic; 
+		margin: -1.5em -2.5em 0 0;
+    	z-index: 88; 
+		font-size: 0.5em !important;
+		line-height: 1; 
+		position: relative; 
+		font-weight:normal;
+		opacity:0.6;}
+	
+	#banner sup.beta {vertical-align: 2em; }
+	#header sup.beta {vertical-align: 1.7em; font-size: 1em !important;}
+	
+	.alt .logoOPTA, .alt .beta { display:none;}
+	.alt .credit {left: -10px;}
+	
+	.logoOPTA {
+	font-style: italic !important;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  /*
+  color:rgba(137, 124, 124, 1);
+  color:rgba(255, 255, 255, 0.9);
+  color:rgba(130, 123, 123, 0.9);
+  color:rgba(80, 91, 102, 0.6);
+  */
+  
+  color:rgba(152, 140, 138, 1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
+  font-size:4em;
+}
+	#header .logoOPTA {font-size: 4.5em;}
+ #banner .logoOPTA {font-size: 2.5em;}
+ 
+ .credit { display: inline-block;
+    position: absolute;
+    left: 13em;
+    top: 0;
+    width: 200px;}
+	
+	 .credit div {    
+	line-height: 1em !important;
+    z-index: 888;
+    font-style: italic;
+    display: inline-block;
+    width: 4em;
+    opacity: 0.3;
+    padding-top: 5px;
+    margin-right: 1em;
+	font-size:0.6em;
+	}
+
+ol.lower-alpha {list-style-type: lower-alpha;}
+
+.homebtn { display:none !important;}
+#navButtonLogIn  {	
+
+						background: rgba(192, 192, 192, 0.75);
+						border-radius: 6px;
+						
+						content: '\f0c9';
+						display: block;
+						font-size: 16px;
+						height: 2.25em;
+						float: right;
+    					margin-right: 10px;
+						line-height: 2em;
+						position: relative;
+						text-align: center;
+						top: 0.5em;
+						width: 75px;
+}
+#navButtonLogIn a {     
+	text-decoration: none;
+    color:#ffffff;
+    border: 0;
+    outline: 0;
+	font-size:0.8em;
+	    padding: 0 1em;
+	}
+
+header .icon.major { position:absolute; margin-top: 5px; font-size:0.8em; z-index: 100; padding: 1; width: 5em;
+    height: 5em;
+    margin-left: -2em; opacity: 0.9;}
+header .icon.major i { font-size: 3.6em; margin-top: 10px;} 	
+	header .icon.major i.sm { font-size: 3em; margin-top: 5px;} 
+	
+/*peach:#e89980 darkblue:#4b515a slate:#4b515a*   4b515a/
