@@ -2827,7 +2827,7 @@
 	}
 
 	#header {
-		background-color:rgba(78, 90, 100, 0.9);
+		background-color:rgba(78, 90, 100, 0.95);
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3383,7 +3383,6 @@
 
 					.box .image.featured:first-child {
 						margin-bottom: 3em;
-						margin-top: -3em;
 					}
 
 					.box .image.featured:last-child {
@@ -3568,8 +3567,9 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-		.stepBox { width:auto !important; min-height:inherit !important;}
+		.stepBox { width:auto !important; min-height:inherit !important; padding: 1em 2em !important;}
 		.stepBtw { width: 25px; min-height:inherit !important; padding: 24px 5px 0 5px!important;  }
+		
 		.panel { width:45% !important;}
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -3603,9 +3603,9 @@
 		/* Box */
 
 			.box {
-				margin: 1em;
+				margin: 2.5em 1em;
 				overflow-x: hidden;
-				padding: 3em 2em !important;
+				padding: 4em 2em !important;
 			}
 
 				.box.features .features-row {
@@ -3635,7 +3635,7 @@
 
 					.box .image.featured:first-child {
 						margin-bottom: 2em;
-						margin-top: -2em;
+						margin-top: -4em;
 					}
 
 					.box .image.featured:last-child {
@@ -3700,9 +3700,11 @@
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
-		.stepBox { width:auto !important; min-height:inherit !important;}
-		.stepBtw { width: 25px; min-height:inherit !important; padding: 24px 5px 0 5px!important;  }
-		.panel { width:45% !important;}
+		.stepBox { width:90% !important; min-height:inherit !important; padding: 1em 2em !important;}
+		.stepBtw { width: 100% !important;
+    min-height: inherit !important;
+    padding: 5px!important;}
+		.panel { width:85% !important}
 		/* Basic */
 
 			html, body {
@@ -3758,7 +3760,7 @@
 			.box {
 				border-radius: 0;
 				box-shadow: none;
-				margin: 1em 0 0 0;
+				margin: 2em 0 0 0;
 				padding: 4em 1em !important;
 			}
 
@@ -3779,7 +3781,7 @@
 
 					.box .image.featured:first-child {
 						margin-bottom: 3em;
-						margin-top: -3em;
+						margin-top: -4em;
 					}
 
 					.box .image.featured:last-child {
@@ -3841,7 +3843,7 @@
 	
 	.panel-info>.panel-heading {
 		color: #4b515a;
-		background-color: rgba(66, 115, 172, 0.2);
+		background-color: rgba(66, 115, 172, 0.1);
 		border-color: #4b515a;
 		border-style: dotted;
 
@@ -3877,14 +3879,17 @@
 	
 	.stepBox { display:inline-block; width:30%; min-height:120px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #4b515a; clear:none; margin: 10px auto; border-radius: 6px;}
 
+.diagram_toa { text-align:center;}
+
 .diagram_toa .stepBox { text-align:center;}
 
-.toaformula .stepBox { min-height: 100px;}
+
+.toaformula .stepBox { min-height: 100px; padding-top: 25px; }
 
 	
 	.stepHead { display:inline-block; width:100%; padding: 0.5em; vertical-align:top; border:dotted 2px #4b515a; clear:none; margin: 10px auto; font-size: 1.3em; font-weight:normal;}
 	
-	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2.2em 5px 0 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#4b515a;}
+	.stepBtw { display:inline-block; width:25px; min-height:100px;  padding: 2em 5px 0 5px; vertical-align:top; font-size:25px; font-weight:bold; color:#4b515a;}
 
 	.setOff { margin-left:2em;}
 	
@@ -3903,7 +3908,7 @@
     line-height: 1.95em;
     padding: 0.03em 1em;
     border-radius: 6px;
-	box-shadow: inset 0 0 0 2px rgba(66, 115, 172, 0.9);}
+	box-shadow: inset 0 0 0 2px rgba(66, 115, 172, 0.5);}
 	
 	.logo_CPRL:hover {background-color:rgba(66, 115, 172, 1);}
 	
