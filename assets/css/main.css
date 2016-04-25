@@ -1908,7 +1908,7 @@
 
 	blockquote {
 		border-left: solid 4px #e5e5e5;
-		font-style: italic;
+		font-style: normal;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
@@ -2295,7 +2295,7 @@
 
 			.box .image.featured:first-child {
 				border-radius: 6px 6px 0 0;
-				margin-bottom: 3em;
+				margin-bottom: 5em;
 				margin-top: -3em;
 			}
 
@@ -3136,12 +3136,12 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		/*padding: 4em 0; */
 	}
 
 		#main > header {
 			text-align: center;
-			margin: 0 0 2.4em 0;
+			margin: 4em 0 1em 0;
 		}
 
 			#main > header h2 {
@@ -3159,7 +3159,7 @@
 			}
 
 	body.landing #main {
-		margin-top: -14em;
+		/*margin-top: -14em; */
 	}
 
 /* Footer */
@@ -3289,7 +3289,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 8em 0 14em 0;
+				padding: 10em 0 7em 0;
 			}
 
 	}
@@ -3352,9 +3352,9 @@
 				font-size: 11pt;
 			}
 
-			h2 br, h3 br, h4 br, h5 br, h6 br {
+			/* h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
-			}
+			} */
 
 		/* Section/Article */
 
@@ -3634,7 +3634,7 @@
 				}
 
 					.box .image.featured:first-child {
-						margin-bottom: 2em;
+						margin-bottom: 5em;
 						margin-top: -4em;
 					}
 
@@ -3646,7 +3646,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 4em 0;
+				padding: 7em 0 5em 0;
 			}
 
 				#banner h2 {
@@ -3700,6 +3700,10 @@
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
+		
+		
+		.box.special.features h4 { float:left; width: 15em !important; margin-left: 5% !important;}
+		
 		.stepBox { width:90% !important; min-height:inherit !important; padding: 1em 2em !important;}
 		.stepBtw { width: 100% !important;
     min-height: inherit !important;
@@ -3792,7 +3796,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 5em 1em 4em 1em;
+				padding: 7em 1em 4em 1em;
 			}
 
 		/* Main */
@@ -3879,7 +3883,7 @@
 	
 	.stepBox { display:inline-block; width:30%; min-height:120px; padding: 2% 0.5em; vertical-align:top; border:dotted 2px #4b515a; clear:none; margin: 10px auto; border-radius: 6px;}
 
-.diagram_toa { text-align:center;}
+.diagram_toa { text-align:center; margin: 0 0 1em 0; }
 
 .diagram_toa .stepBox { text-align:center;}
 
@@ -3902,7 +3906,7 @@
 	
 	margin: 0 0 0 0.5em;
     position: relative;
-	background-color:rgba(66, 115, 172, 0.2);
+	background-color: rgba(66, 115, 172, 1);
 	display: inline-block;
     height: 2em;
     line-height: 1.95em;
@@ -3910,7 +3914,9 @@
     border-radius: 6px;
 	box-shadow: inset 0 0 0 2px rgba(66, 115, 172, 0.5);}
 	
-	.logo_CPRL:hover {background-color:rgba(66, 115, 172, 1);}
+	.logo_CPRL:hover {background-color:rgba(66, 115, 172, 0.2);}
+	
+	.logo_CPRL.about_CPRL {  }
 	
 	
 		#banner sub {
@@ -4007,10 +4013,46 @@ ol.lower-alpha {list-style-type: lower-alpha;}
 	    padding: 0 1em;
 	}
 
-header .icon.major { position:absolute; margin-top: 5px; font-size:0.8em; z-index: 100; padding: 1; width: 5em;
+header .icon.major { position:absolute; margin-top: -5px; font-size:0.8em; z-index: 100; padding: 1; width: 5em;
     height: 5em;
-    margin-left: -2em; opacity: 0.9;}
+     opacity: 0.9; right: 10%;}
 header .icon.major i { font-size: 3.6em; margin-top: 10px;} 	
 	header .icon.major i.sm { font-size: 3em; margin-top: 5px;} 
+
+
+.box.special.features section { padding: 0 0 5em 0;}
+
+.box.special.features h3 {
+	margin-bottom: 0;
+	    width: 100%;
+		opacity: 0.4;
+		text-transform: uppercase;
+		float:left;
+		font-size:3em;	
+		font-style: italic !important;
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+		border: none;
+		padding: 0;
+		margin-left:25%;
+  /*
+  color:rgba(137, 124, 124, 1);icon major
+  color:rgba(255, 255, 255, 0.9);icon major
+  color:rgba(130, 123, 123, 0.9);
+  color:rgba(80, 91, 102, 0.6);icon major
+  */
+  
+  color:rgba(152, 140, 138, 1);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213)  ;}
+	
+	
+	.box.special.features h4 { float:left; /*border-top: dotted 1px #333333; padding: 1em 2em;*/     width: 300px;
+    margin-left: 20%;}
+	
+	.box.special.features .icon.major { top: -1.3em; margin: 2em 0 0 0;}
 	
 /*peach:#e89980 darkblue:#4b515a slate:#4b515a*   4b515a/
